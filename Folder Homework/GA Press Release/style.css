@@ -1,0 +1,27 @@
+body {
+  background: -webkit-linear-gradient(left,green,blue);
+}
+
+h2 {
+  background: black;
+  color: white;
+}
+
+p {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a {
+  color: pink;
+}
+
+li {
+  font-family: helvetica;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}

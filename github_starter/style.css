@@ -1,3 +1,50 @@
 body {
-    background: red;
+    background: rgb(200,200,200);
+    }
+
+h1 {
+	font-family: Arial;	
+	font-size: 150px;
+	color: black;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(200,200,200);
+}
+
+li {
+	float: left;
+}
+
+a {
+	display: block;
+    color: black;
+    font-size: 18px;
+    font-family: arial;
+    text-align: center;    
+    text-decoration: none;
+    padding: 20px 16px;
+}
+
+.Contact-Me {
+	float: right;
+} 
+
+a:hover {
+	color: white;
+}
+
+p {
+	color: black; 
+	text-align: center;
+	font-size: 50px;
+	font-family: Arial;
 }

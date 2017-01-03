@@ -1,0 +1,43 @@
+body {
+	background-color: white;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.grey-background {
+	background-color:rgb(200,200,200);
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h1 {
+	background: black;	
+	border: black 5px solid;
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 16px;	
+	padding: 5px;
+}
+
+.red-box {
+	z-index: 1;
+	background-color: tomato;
+	padding: 4px;
+	margin-bottom: 10px;
+	border: red 5px solid;
+}
+
+.red-box p#first-text {
+	color:blue;
+}
+
+.red-box p#second-text {
+	color:green;
+}
+
+.red-box p#third-text {
+	color:yellow;
+}

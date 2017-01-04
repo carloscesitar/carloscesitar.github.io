@@ -5,6 +5,7 @@ body {
 	padding: 54px;
 	border: solid 6px #dddddd;
 	text-align: left;
+	line-height: 1.5;
 }
 
 header {
@@ -64,6 +65,10 @@ h4 {
 	color: black;
 }
 
+img {
+	width: 100%;
+}
+
 p {
 	color: #444444;
 	font-family: lato, helvetica, arial; 
@@ -73,16 +78,19 @@ p {
 }
 
 aside {
-	font-family: lato, helvetica bold, arial bold;
-	font-weight: bold;
-	color: red;
 	text-align: right;
-	font-size: 18px;
-	font-weight: bold;
 	padding-top: 10px;
 	padding-bottom: 25px;
 	border-bottom: solid #dddddd 2px;
 	margin-bottom: 50px;
+}
+
+aside a {
+	font-family: lato, helvetica, arial;
+	font-weight: bold;
+	color: red;
+	font-size: 18px;
+	text-decoration: none; 
 }
 
 .footer {

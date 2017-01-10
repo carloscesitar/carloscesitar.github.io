@@ -1,0 +1,163 @@
+
+
+body {
+	width: 1080px;
+	padding: 54px;
+	border: solid 6px #dddddd;
+	text-align: left;
+	line-height: 1.5;
+}
+
+header {
+	color: #DD0000;
+	font-family: lato, helvetica, arial;
+	font-size: 50px;
+	font-weight: 500;
+	margin: 0 0 15px 0;
+	padding: 0;
+	display: inline-block;
+}
+
+h2 {
+	color: black;
+	font-family: lato, helvetica, arial;
+	font-size: 30px;
+	font-weight: 500;
+	margin: 0 0 15px 0;
+	padding: 0;
+	display: inline-block;
+}
+
+nav {
+	background-color: black;
+}
+
+nav a {
+	
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: lato, helvetica, arial;
+	padding: 20px;
+	/*height: 80px;*/
+	margin-right: 1px;
+}
+
+nav a:hover {
+	color: #DD0000
+	background-color: red;
+}
+
+/*.top-navigation {
+	background-color: black;
+	margin: 0 0 50px 0;
+}
+
+.top-navigation li {
+	display: inline-block;
+	padding: 20px 0 20px 0;	
+}
+
+.top-navigation li a {
+	color: #cccccc;
+	font-size: 25px;
+	font-family: lato, helvetica, arial;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+.top-navigation li a:hover {
+	color: #DD0000;*/
+}
+
+main {
+	overflow: hidden
+}
+
+.left-column {
+	width: 700px;
+	float: left;
+}
+
+.right-column {
+	width: 300px;
+	float: right;
+}
+
+h3, h4 {
+	padding: 0;
+	font-family: lato, helvetica, arial; 
+	font-size: 32px;
+	font-weight: 500;
+	margin: 0 0 15px 0;
+}
+
+h3 {
+	color: #cccccc;
+}
+
+h4 {
+	color: black;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	color: #444444;
+	font-family: lato, helvetica, arial; 
+	font-size: 18px;
+	font-weight: normal;
+	margin: 5 0 5 0;
+}
+
+aside {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	border-bottom: solid #dddddd 2px;
+	margin-bottom: 50px;
+}
+
+aside a {
+	font-family: lato, helvetica, arial;
+	font-weight: bold;
+	color: red;
+	font-size: 18px;
+	text-decoration: none; 
+}
+
+/*.clear {
+clear: both;
+}*/
+
+.footer {
+	list-style-type: none;
+	padding: 0;
+	margin: 50 0 25 0;
+	clear: both;
+}
+
+.footer li {
+	display: inline;
+	color:#dddddd;
+	margin-right: 1px;	
+}
+
+.footer li a {
+	color: red;
+	font-size: 18px;
+	font-family: lato, helvetica, arial;
+	text-decoration: none;
+}
+
+.footer li a:hover {
+	color: black;
+}
+
+#copyright {
+	color: #bbbbbb;
+	font-size: 18px;
+}

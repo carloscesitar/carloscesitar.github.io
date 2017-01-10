@@ -1,0 +1,62 @@
+
+
+.wrapper {
+	width: 800px;
+
+}
+
+ header {
+	height: 200px;
+	background-color: red;
+	margin: 10px;
+}
+
+main {
+	/*overflow: hidden;*/
+	/*font-size: 0;*/
+}
+	
+
+.left {
+	height: 400px;
+	background: green;
+	width: 130px;
+	float: left;
+	/*display: inline-block;
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+.center {
+	height: 400px;
+	background: yellow;
+	width: 480px;
+	/*display: inline-block;*/
+	float: left;
+	/*opacity: .2;*/
+	margin: 10px;
+}
+.right {
+	height: 400px;
+	background: blue;
+	width: 130px;
+	/*display: inline-block;*/
+	float: left;
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+footer {
+	height: 400px;
+	background: orange;
+	margin: 10px;
+	/*clear: both;*/
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}

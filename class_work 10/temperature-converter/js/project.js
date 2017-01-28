@@ -3,7 +3,7 @@
 $("#button").click(function(){
 
 
-	if (($('#item').val()==='Celsius')) {
+	if ($('#item').val()==='Celsius') {
 		var data = parseInt($('#put-your-temperature').val());
 		data = ((data*9)/5) + 32;
 		$('p').html($('#put-your-temperature').val() + ' degrees Celsius equals ' + data + ' degrees Fahrenheit');

@@ -23,9 +23,7 @@ $(document).ready(function () {
 
 		appendItem (newItem);
 
-		$('#item').val('');
-
-		$('#item').focus().css('outline-width', 'medium').css('outline-style', 'solid');
+		$('#item').val('').focus().css('outline-width', 'medium').css('outline-style', 'solid');
 		
 		
 		}

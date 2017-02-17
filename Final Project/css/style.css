@@ -1,0 +1,83 @@
+
+
+
+.big-wrapper {
+	width: 100vw;
+	/*height: 50vw;*/
+	background-color: tomato;
+	/*overflow: hidden; */
+	/*clear: both;*/
+}
+
+#main-image {
+	width: 75vw;
+	height: 50vw;
+	background-color: seagreen;
+	float: left;
+}
+
+#side-image-commentary {
+	width: 25vw;
+	height: 50vw;
+	float: left;
+	background-color: blue;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mini-wrapper {
+	width: 75vh;
+	overflow: hidden;
+}
+
+#first-box {
+	float: left;
+}
+
+.box25 {
+	width: 25vw;
+	height: 25vw;
+	background-color: purple;
+}
+
+#top-box{
+	background-color: grey; 
+}
+
+#bottom-box {
+	background-color: pink;
+}
+
+.box25by50 {
+	width: 25vw;
+	height: 50vw;
+	background-color: white;
+}
+
+.box50by25 {
+	width: 50vw;
+	height: 25vw;
+	background-color: white;
+}
+
+.box50 {
+	width: 50vw;
+	height: 50vw;
+	background-color: white;
+	float: left;
+	padding: 10vw;
+}
+
+.vertical-wrapper {
+	float: left;
+}
+
+.vertical-wrapper-right {
+	float: right;
+}
+
